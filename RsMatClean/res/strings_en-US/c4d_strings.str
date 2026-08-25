@@ -1,0 +1,30 @@
+STRINGTABLE
+{
+    IDS_PLUGIN_NAME "RsMat Clean";
+    IDS_PLUGIN_HELP "Remove unused nodes from selected materials, or all materials when none are selected";
+    IDS_SCOPE_SELECTED "Selected materials";
+    IDS_SCOPE_ALL "All materials";
+    IDS_UNNAMED_MATERIAL "<Unnamed material>";
+    IDS_UNNAMED_NODE "<Unnamed node>";
+    IDS_ERROR_GRAPH_EMPTY "The node graph is empty";
+    IDS_ERROR_GRAPH_READ_ONLY "The node graph is read-only";
+    IDS_ERROR_OUTPUT_MISSING "The material output node could not be found";
+    IDS_ERROR_UNDO_START "Could not start the Cinema 4D undo record";
+    IDS_REPORT_TITLE "RsMat Clean v%s - Scan Preview";
+    IDS_REPORT_SUMMARY "Scope: %s; Materials: %d; Node graphs: %d; Candidates: %d";
+    IDS_REPORT_ITEM "%d. [%s] Material=%s | Node=%s | Type=%s";
+    IDS_REPORT_NONE "No nodes disconnected from the material output were found.";
+    IDS_REPORT_ERRORS "Skipped/errors (these items will not be deleted):";
+    IDS_ERROR_RUNTIME_ONLY "Run this plugin in Cinema 4D 2024-2026.";
+    IDS_ERROR_NO_DOCUMENT "No Cinema 4D document is open.";
+    IDS_ERROR_NO_MATERIALS "The current document contains no materials to process.";
+    IDS_NO_CANDIDATES "Scan complete. No unused nodes were found.";
+    IDS_SKIPPED_COUNT "\n\n%d item(s) were safely skipped. See the console for details.";
+    IDS_CONFIRM "Scope: %s\nFound %d node(s) disconnected from the material output.\n\nThe full list is in the console.\nDelete them? The operation supports Cinema 4D Undo.";
+    IDS_CONFIRM_SKIPPED "\n\n%d additional item(s) could not be safely classified and were skipped.";
+    IDS_CANCELED "Deletion canceled; the document was not modified.";
+    IDS_DONE "Cleanup complete: removed %d unused node(s).";
+    IDS_DELETE_ERRORS "Deletion errors:";
+    IDS_RESULT_FAILED "\n\n%d group(s) failed to delete. See the console for details.";
+}
+
