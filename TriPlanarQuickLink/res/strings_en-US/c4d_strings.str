@@ -1,0 +1,25 @@
+STRINGTABLE
+{
+    IDS_PLUGIN_NAME "TriPlanar Quick Link";
+    IDS_PLUGIN_HELP "Connect the selected source node to all TriPlanar nodes in the active Redshift material";
+    IDS_CONNECT_SCALE "Connect \u00b7 Scale";
+    IDS_CONNECT_OFFSET "Connect \u00b7 Offset";
+    IDS_CONNECT_ROTATION "Connect \u00b7 Rotation";
+    IDS_CONNECT_BLEND_AMOUNT "Connect \u00b7 Blend Amount";
+    IDS_DISCONNECT_SCALE "Disconnect \u00b7 Scale";
+    IDS_DISCONNECT_OFFSET "Disconnect \u00b7 Offset";
+    IDS_DISCONNECT_ROTATION "Disconnect \u00b7 Rotation";
+    IDS_DISCONNECT_BLEND_AMOUNT "Disconnect \u00b7 Blend Amount";
+    IDS_ERROR_PREFIX "TriPlanar Quick Link:";
+    IDS_ERROR_SELECT_ONE "Select exactly one source node before running TriPlanar Quick Link.";
+    IDS_ERROR_ACTIVE_MATERIAL "Activate a material containing Redshift nodes first.";
+    IDS_ERROR_NOT_REDSHIFT "The active material is not a Redshift node material.";
+    IDS_ERROR_NO_TARGETS "The active material contains no TriPlanar nodes to process.";
+    IDS_MIX_ROUND_CORNERS "Mix Round Corners";
+    IDS_ERROR_SELECT_ONE_BUMP "Select exactly one Bump Map node.";
+    IDS_ERROR_BUMP_NOT_DIRECTLY_CONNECTED "The selected Bump Map must connect directly to the Bump Input of one RS Standard Material.";
+    IDS_ERROR_BUMP_MIX_PORTS_UNAVAILABLE "Required Bump Blender ports are missing or incompatible.";
+    IDS_ERROR_CREATE_BUMP_MIXER "Could not create and connect the Bump Blender.";
+    IDS_ERROR_CYCLIC_CONNECTION "The selected source is downstream of a target TriPlanar and would form a cycle. Select an upstream value, texture, or other source node.";
+    IDS_DISCONNECT_ALL "Disconnect All";
+}
